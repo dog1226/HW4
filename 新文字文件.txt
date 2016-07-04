@@ -1,0 +1,33 @@
+.title>li{display: inline-block; 
+        text-align: center;
+        border: 1px solid #000; 
+        position: relative;
+        padding: .5em 1em; 
+        margin: -2px; 
+        box-sizing: border-box;    
+        width: 25%;        
+}
+.title>li:last-child{border-right: 1px solid #ddd;
+}
+.submenu{width: 200px; 
+        padding: 0px; 
+        list-style-type: none; 
+        position: absolute;
+        left: -10px; 
+        top: 100%; 
+        cursor: pointer; 
+        border-radius: 5px;
+        display: none; 
+}
+.title>li:hover.submenu{display: block;
+}
+.submenu li{
+  padding: .5em 15px;
+  color: black;
+  cursor: pointer;
+  list-style-type:none;
+}
+.submenu li:hover{
+  color: gray;
+  background: white;
+}
