@@ -1,0 +1,34 @@
+/*
+div{padding: 2%; color: #ffffff; text-align: center;}
+.header{background-color: #38e0ff; 
+    height: 100px; line-height: 100px }
+.nav{background-color: #f7cf28; 
+    height: 20px; line-height: 20px }
+.sidebar{float: left; background-color: #38e0ff; 
+    width: 25%;
+    height: 100px; line-height: 100px; }
+.main{float: right; background-color: #38e0ff; width: 80%;
+    height: 100px; line-height: 100px; }
+.footer{background-color: #38e0ff; 
+    height: 100px; line-height: 100px }
+*/
+
+/*HW-2*/
+.nav2>li{display: inline-block; 
+        border: 1px solid #000; 
+        border-right:0;
+        position: relative;
+}
+
+.submenu li{width: 200px; 
+            padding: 0px; 
+            list-style-type: none; 
+/*
+            position: absolute;
+            left: -1px; 
+            top: 100%; 
+            cursor: pointer;
+            display: none; 
+*/
+            
+         }
