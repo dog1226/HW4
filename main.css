@@ -1,34 +1,69 @@
-/*
-div{padding: 2%; color: #ffffff; text-align: center;}
+/*HW-1*/
 .header{background-color: #38e0ff; 
-    height: 100px; line-height: 100px }
-.nav{background-color: #f7cf28; 
-    height: 20px; line-height: 20px }
-.sidebar{float: left; background-color: #38e0ff; 
+    height: 100px; 
+    line-height: 100px; 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 30px}
+.nav{background-color: #ffeb00; 
+    height: 30px; 
+    line-height: 30px; 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 30px}
+.sidebar{float: left; 
+    background-color: #001cf5; 
     width: 25%;
-    height: 100px; line-height: 100px; }
-.main{float: right; background-color: #38e0ff; width: 80%;
-    height: 100px; line-height: 100px; }
-.footer{background-color: #38e0ff; 
-    height: 100px; line-height: 100px }
-*/
+    height: 300px; 
+    line-height: 300px; 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 30px}
+.main{float: right; 
+    background-color: #38ff47; 
+    width: 75%; height: 300px; 
+    line-height: 300px; 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 30px}
+.footer{background-color: #ffab38; 
+    height: 370px; 
+    line-height: 70px; 
+    text-align: center; 
+    color: #ffffff; 
+    font-size: 30px}
 
 /*HW-2*/
-.nav2>li{display: inline-block; 
+.title>li{display: inline-block; 
+        text-align: center;
         border: 1px solid #000; 
-        border-right:0;
         position: relative;
+        padding: .5em 1em; 
+        margin-left: -5px; 
+        box-sizing: border-box;    
+        width: 25%;
 }
-
-.submenu li{width: 200px; 
-            padding: 0px; 
-            list-style-type: none; 
-/*
-            position: absolute;
-            left: -1px; 
-            top: 100%; 
-            cursor: pointer;
-            display: none; 
-*/
-            
-         }
+.title>li:last-child{border-right: 1px solid #ddd;
+}
+.submenu{width: 200px; 
+        padding: 0px; 
+        list-style-type: none; 
+        position: absolute;
+        right: -10px; 
+        top: 100%; 
+        cursor: pointer; 
+        border-radius: 5px;
+        display: none; 
+}
+.title>li:hover .submenu{display: block;
+}
+.submenu li{
+  padding: .5em 15px;
+  color: black;
+  cursor: pointer;
+  list-style-type:none;
+}
+.submenu li:hover{
+  color: gray;
+  background: white;
+}
