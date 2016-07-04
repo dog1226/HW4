@@ -14,21 +14,21 @@
 .sidebar{float: left; 
     background-color: #001cf5; 
     width: 25%;
-    height: 300px; 
-    line-height: 300px; 
+    height: 900px; 
+    line-height: 900px; 
     text-align: center; 
     color: #ffffff; 
     font-size: 30px}
 .main{float: right; 
     background-color: #38ff47; 
-    width: 75%; height: 300px; 
-    line-height: 300px; 
+    width: 75%; height: 900px; 
+    line-height: 900px; 
     text-align: center; 
     color: #ffffff; 
     font-size: 30px}
 .footer{background-color: #ffab38; 
-    height: 370px; 
-    line-height: 70px; 
+    height: 1000px; 
+    line-height: 100px; 
     text-align: center; 
     color: #ffffff; 
     font-size: 30px}
@@ -39,9 +39,9 @@
         border: 1px solid #000; 
         position: relative;
         padding: .5em 1em; 
-        margin-left: -5px; 
+        margin: -2px; 
         box-sizing: border-box;    
-        width: 25%;
+        width: 25%;        
 }
 .title>li:last-child{border-right: 1px solid #ddd;
 }
@@ -49,13 +49,13 @@
         padding: 0px; 
         list-style-type: none; 
         position: absolute;
-        right: -10px; 
+        left: -10px; 
         top: 100%; 
         cursor: pointer; 
         border-radius: 5px;
         display: none; 
 }
-.title>li:hover .submenu{display: block;
+.title>li:hover.submenu{display: block;
 }
 .submenu li{
   padding: .5em 15px;
@@ -66,4 +66,20 @@
 .submenu li:hover{
   color: gray;
   background: white;
+}
+/*HW4-3*/
+.fixed-circle{width:50px;
+    height:50px;
+    border-radius:50%;
+    color:#ffffff;
+    line-height:50px;
+    text-align:center;
+    background:#ff0000; 
+    font-size:50px;
+    font-family: Arial;
+    font-weight: 900;
+    display: inline-block;
+    position: fixed;
+    top: 870px;
+    left: 680px;    
 }
